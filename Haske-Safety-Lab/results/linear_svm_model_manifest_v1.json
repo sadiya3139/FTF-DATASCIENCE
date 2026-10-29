@@ -1,3 +1,38 @@
 {
-  "note": "Model manifest placeholder"
+  "model_name": "LinearSVC",
+  "purpose": "Final fitted development model for prototype use",
+  "protocol": "robustness_v1_frozen",
+  "trained_at_utc": "2026-10-25T22:09:02.429042+00:00",
+  "dataset_path": "/content/drive/MyDrive/Haske-Safety-Lab/data/processed/combined_unique_exploratory.csv",
+  "dataset_sha256": "58b5482ef6afd0492310d61591344123198629e25a9d05091d4004835a6643b3",
+  "rows": 6055,
+  "label_counts": {
+    "ham": 4993,
+    "suspicious": 1062
+  },
+  "input_column": "text",
+  "target_column": "label",
+  "tfidf": {
+    "analyzer": "char",
+    "ngram_range": [
+      3,
+      5
+    ],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "max_features": 100000,
+    "lowercase": true,
+    "strip_accents": null
+  },
+  "classifier": {
+    "C": 1.0,
+    "class_weight": "balanced",
+    "random_state": 42,
+    "max_iter": 5000
+  },
+  "probability_calibration": false,
+  "threshold_tuning": false,
+  "scikit_learn_version": "1.6.1",
+  "warnings_count": 1,
+  "evaluation_note": "This model was fitted on the full development corpus. Do not report its predictions on this corpus as independent test performance. Use the existing robustness experiment for internal evaluation results."
 }
