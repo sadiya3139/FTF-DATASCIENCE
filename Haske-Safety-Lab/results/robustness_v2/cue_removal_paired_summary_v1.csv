@@ -1,0 +1,4 @@
+cue_condition,messages_tested,original_detections,detections_after_removal,detections_lost,detections_gained,original_detection_rate_percent,modified_detection_rate_percent
+link_removed,31,31,27,4,0,100.0,87.1
+long_numbers_removed,135,135,128,7,0,100.0,94.81
+urgency_removed,27,27,27,0,0,100.0,100.0

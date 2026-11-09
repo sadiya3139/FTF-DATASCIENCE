@@ -1,0 +1,5 @@
+cue_condition,messages_tested,detected_suspicious,detection_rate_percent
+link_removed,31,27,87.1
+long_numbers_removed,135,128,94.81
+original,216,204,94.44
+urgency_removed,27,27,100.0

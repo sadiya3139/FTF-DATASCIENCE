@@ -1,0 +1,11 @@
+label,warning_sign,messages_with_indicator,total_messages,percentage
+ham,R1 — Unexpected prize or money,7,999,0.7
+ham,R2 — Pressure to act fast,8,999,0.8
+ham,R3 — Request for secret details,2,999,0.2
+ham,R4 — Suspicious link,0,999,0.0
+ham,R5 — Bank or official impersonation,1,999,0.1
+suspicious,R1 — Unexpected prize or money,30,216,13.89
+suspicious,R2 — Pressure to act fast,22,216,10.19
+suspicious,R3 — Request for secret details,2,216,0.93
+suspicious,R4 — Suspicious link,31,216,14.35
+suspicious,R5 — Bank or official impersonation,5,216,2.31

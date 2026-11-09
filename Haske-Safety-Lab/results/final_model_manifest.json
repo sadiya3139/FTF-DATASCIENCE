@@ -1,0 +1,20 @@
+{
+    "model_name": "LinearSVC",
+    "model_file": "linear_svm_sms_model_final.joblib",
+    "training_rows": 6055,
+    "features": "Character TF-IDF",
+    "ngram_range": [
+        3,
+        5
+    ],
+    "min_df": 2,
+    "sublinear_tf": true,
+    "max_features": 100000,
+    "class_weight": "balanced",
+    "C": 1.0,
+    "max_iter": 5000,
+    "random_state": 42,
+    "dataset_sha256": "58b5482ef6afd0492310d61591344123198629e25a9d05091d4004835a6643b3",
+    "training_scope": "Full available dataset; deployment model only",
+    "trained_at_utc": "2026-11-09T10:11:43.620773+00:00"
+}

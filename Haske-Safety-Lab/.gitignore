@@ -1,0 +1,69 @@
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*.log
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+
+# Raw and processed datasets: review licences before publishing
+data/raw/
+data/processed/
+
+# Trained models and serialized objects
+results/*.joblib
+results/*.pkl
+results/*.pickle
+
+# Potentially sensitive message-level and manual-review records
+results/manual_error_review.csv
+results/manual_error_review_final.csv
+results/manual_label_comparison.csv
+results/unresolved_manual_reviews.csv
+results/logistic_regression_error_analysis.csv
+results/false_alarm_probability_analysis.csv
+results/prototype_sanity_tests.csv
+
+# Local backup
+README_backup_before_update.md
+
+# Haske Safety Lab: publication safeguards
+# Exclude datasets until their licences and redistribution rights are confirmed
+data/raw/
+data/processed/
+
+# Exclude trained models and serialized objects
+results/*.joblib
+results/*.pkl
+results/*.pickle
+
+# Exclude detailed message-level analysis and prototype examples
+results/false_alarm_probability_analysis.csv
+results/logistic_regression_error_analysis.csv
+results/manual_error_review.csv
+results/manual_error_review_final.csv
+results/manual_label_comparison.csv
+results/prototype_sanity_tests.csv
+results/unresolved_manual_reviews.csv
+
+# Hold back pending reconciliation and review
+results/manual_error_analysis_summary.csv
+results/heldout_threshold_comparison.csv
+results/threshold_validation_results.csv
+results/threshold_decision.json
+
+
+!results/
+!results/linear_svm_sms_model_final.joblib

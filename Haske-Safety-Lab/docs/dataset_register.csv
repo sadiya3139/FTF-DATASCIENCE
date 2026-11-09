@@ -1,0 +1,6 @@
+dataset_name,source_url,language,reported_records,labels,licence,origin_type,intended_use,verification_status,notes
+UCI SMS Spam Collection,https://archive.ics.uci.edu/dataset/228/sms+spam+collection,English,5574.0,"Ham, spam",Verify before redistribution,Public; inspect provenance,Candidate training/benchmark,Source and downloaded-file terms require verification,Not a Hausa dataset
+Mishra and Soni SMS Phishing Dataset,https://data.mendeley.com/datasets/f45bkkt8pr/1,Verify language composition,5971.0,"Ham, spam, smishing",Verify before redistribution,Public; inspect provenance,Candidate training/benchmark,Source and downloaded-file terms require verification,Map labels carefully before binary classification
+NaijaScam v0.1,TO BE VERIFIED,To verify,,To verify,To verify,To verify,Pending verification,Pending,Do not use until exact source and licence are confirmed
+Synthetic training messages,Created for this project,"Hausa, English, mixed",,"Scam, legitimate",Project-generated,Synthetic,Training only,Not yet created,Keep distinct from human-written test messages
+Human-written test set,Created for this project,"Hausa, English, mixed",,"Scam, legitimate",Project-generated; document consent and use,Human-written fictional messages,Final held-out evaluation,Not yet created,Do not use for training or model selection

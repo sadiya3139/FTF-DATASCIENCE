@@ -1,0 +1,15 @@
+{
+  "dataset_sha256": "58b5482ef6afd0492310d61591344123198629e25a9d05091d4004835a6643b3",
+  "expected_evaluations": 75,
+  "successful_evaluations": 75,
+  "errors": [],
+  "warnings_count": 75,
+  "models_trained": true,
+  "complete": true,
+  "elapsed_seconds": 220.18,
+  "versions": {
+    "scikit_learn": "1.6.1",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3"
+  }
+}

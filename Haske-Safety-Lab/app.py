@@ -1,8 +1,10 @@
 import re
 import streamlit as st
 import joblib
+from pathlib import Path
 
-MODEL_PATH = "results/linear_svm_sms_model_robustness_v1.joblib"
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "results" / "linear_svm_sms_model_final.joblib"
 
 st.set_page_config(
     page_title="Haske Safety Lab",

@@ -1,0 +1,4 @@
+model,tn,fp,fn,tp
+LinearSVM,24901,64,288,5022
+LogisticRegression,24841,124,317,4993
+MNB,24960,5,1579,3731
